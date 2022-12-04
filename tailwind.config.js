@@ -14,6 +14,19 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif']
       },
+      keyframes: {
+        bell_kf: {
+          '0%, 100%': {
+            transform: 'rotate(-1-deg)'
+          },
+          '50%': {
+            transform: 'rotate(10deg)'
+          },
+        },
+      },
+      animation: {
+        bell: 'bell_kf 0.31s ease-in-out infinite'
+      },
     },
   },
   plugins: [require('tailwindcss-font-inter')]
