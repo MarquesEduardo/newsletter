@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        azul: {
-          claro: '#C5DFFF',
-          escuro: '#061E3C',
+        blue: {
+          light: '#C5DFFF',
+          dark: '#061E3C',
           hover: '#1057B0',
         },
       },
@@ -16,5 +16,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-font-inter')]
 }

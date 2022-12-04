@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MarquesEduardo/Newsletter/issues"
   },
-  "homepage": "https://github.com/MarquesEduardo/Newsletter#readme"
+  "homepage": "https://github.com/MarquesEduardo/Newsletter#readme",
+  "devDependencies": {
+    "tailwindcss-font-inter": "^3.0.1"
+  }
 }
